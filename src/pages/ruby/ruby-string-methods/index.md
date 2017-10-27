@@ -117,3 +117,9 @@ _Note that the first letter is only capitalized if it is at the beginning of the
     ```ruby
     "15".to_i #=> 15 # integer
     ```
+### To Titleize:
+
+*   The `.titleize` method Capitalizes all the words and replaces some characters in the string to create a nicer looking title. titleize is meant for creating pretty output.
+    ```ruby
+    "hello".titleize #=> "Hello" # string
+    ```
